@@ -1,0 +1,155 @@
+body {
+    background-color: rgba(13, 25, 44, 1);
+    position: relative;
+    height: 900px;
+    width: 1440;
+}
+
+.card {
+    background-color: rgba(21, 38, 63, 1);
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    position: absolute;
+    top: 152px;
+    left: 545px;
+    box-shadow:0px 25px 50px 0px rgba(0, 0, 0, 0.0953);
+}
+
+.equilibrium {
+    position: absolute;
+    width: 302px;
+    height: 302px;
+    left: 6.86%;
+    right: 6.86%;
+    top: 3.03%;
+    bottom: 45.3%;
+    border-radius: 8px;
+}
+
+h1 {
+    width: 302px;
+    height: 28px;
+    position: absolute;
+    top: 350px;
+    left: 24px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+p {
+    width: 302px;
+    height: 52px;
+    top: 394px;
+    left: 24px;
+    color: rgba(139, 172, 217, 1);
+    position: absolute;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;   
+}
+
+.pricediv {
+    width: 301px;
+    height: 20px;
+    top: 470px;
+    left: 24px;
+    position: absolute;
+}
+
+.icon {
+    width: 11px;
+    height: 18px;
+    position: absolute;
+    right: 88.23%;
+    top: 5%;
+    bottom: 5%;
+    left: 0%;
+}
+
+.price {
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    left: 17.48px;
+    top:calc(50% - 20px/2) ;
+    right: 1.07%;
+    color: rgba(0, 255, 248, 1);
+    font-size: 16px;
+    font-family: 'outfit';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.clock {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 203.3px;
+    right: 27.58%;
+    top: 2.67px;
+    bottom: 13.3%;
+}
+
+.days {
+    position: absolute;
+    width: 73px;
+    height: 20px;
+    left: 227px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #8bacd9;
+}
+
+.line {
+    width: 302px;
+    height: 1px;
+    position: absolute;
+    background: rgba(46, 64, 90, 1);
+    top: 514px;
+    left: 24px;
+}
+
+.avatar {
+    width: 33px;
+    height: 33px;
+    top: 531px;
+    left: 24px;
+    position: absolute;
+}
+
+.creation {
+    width: 81px;
+    height: 20px;
+    color: rgba(139, 172, 217, 1);
+    position: absolute;
+    top: 537px;
+    left: 72px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+}
+
+.name {
+    width: 93px;
+    height: 20px;
+    position: absolute;
+    left: 150px;
+    top: 537px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
