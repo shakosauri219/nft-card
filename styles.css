@@ -1,0 +1,169 @@
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(13, 25, 44, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 596px;
+    background: rgba(21, 38, 63, 1);
+    border-radius: 15px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.equilibrium {
+    width: 302px;
+    height: 302px;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+
+.image-container:hover .overlay {
+    opacity: 0.5;
+}
+
+.image-container:hover .icon {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    top: 24px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+#nft-name {
+    color: rgba(255, 255, 255, 1);
+    margin: 24px 0 0 0;
+    font-size: 22px;
+    width: 302px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+#nft-name:hover {
+    color: rgba(0, 255, 248, 1);
+    cursor: pointer;
+}
+
+.nft-descr {
+    width: 302px;
+    margin: 16px 0 0 0;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+    line-height: 26px;
+    color: rgba(139, 172, 217, 1);
+}
+
+.price-div {
+    width: 302px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    align-items: center;
+}
+
+.icon-ethereum {
+    width: 11px;
+    height: 18px;
+}
+
+.price {
+    color: rgba(0, 255, 248, 1);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.16px;
+    margin: 0 0 0 6px;
+}
+
+.icon-clock {
+    height: 13.33px;
+    width: 13.33px;
+    margin-left: 112.15px;
+}
+
+.time {
+    color: rgba(139, 172, 217, 1);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 7.7px;
+}
+
+.span {
+    width: 302px;
+    height: 1px;
+    background: rgba(46, 64, 90, 1);
+    margin-top: 24px;
+}
+
+.creator-info {
+    display: flex;
+    flex-direction: row;
+    padding: 16px 0 0 0;
+    width: 302px;
+    align-items: center;
+}
+
+.image-avatar {
+    width: 33px;
+    height: 33px;
+}
+
+.p1 {
+    padding-left: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgba(139, 172, 217, 1);
+}
+
+.p2 {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.p2:hover {
+    color: rgba(0, 255, 248, 1);
+    cursor: pointer;
+}
+
+
+
+
